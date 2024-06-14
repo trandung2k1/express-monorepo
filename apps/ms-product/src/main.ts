@@ -1,4 +1,4 @@
-import { shared } from '@orgs/shared';
+import { shared } from '@monorepo/shared';
 import express from 'express';
 
 const app = express();

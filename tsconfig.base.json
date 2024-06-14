@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@orgs/auth": ["libs/auth/src/index.ts"],
-      "@orgs/shared": ["libs/shared/src/index.ts"]
+      "@monorepo/auth": ["libs/auth/src/index.ts"],
+      "@monorepo/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
