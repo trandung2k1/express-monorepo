@@ -45,7 +45,8 @@
       },
       "configurations": {
         "development": {
-          "buildTarget": "ms-payment:build:development"
+          "buildTarget": "ms-payment:build:development",
+          "inspect": false
         },
         "production": {
           "buildTarget": "ms-payment:build:production"

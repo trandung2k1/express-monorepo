@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@monorepo/auth": ["libs/auth/src/index.ts"],
+      "@monorepo/rmq": ["libs/rmq/src/index.ts"],
       "@monorepo/shared": ["libs/shared/src/index.ts"]
     }
   },

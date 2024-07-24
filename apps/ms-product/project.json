@@ -45,7 +45,8 @@
       },
       "configurations": {
         "development": {
-          "buildTarget": "ms-product:build:development"
+          "buildTarget": "ms-product:build:development",
+          "inspect": false
         },
         "production": {
           "buildTarget": "ms-product:build:production"

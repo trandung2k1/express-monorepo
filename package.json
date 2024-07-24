@@ -3,12 +3,17 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ms-product:dev": "nx serve ms-product",
-    "ms-product:build": "nx build ms-product",
-    "ms-payment:dev": "nx serve ms-payment",
-    "ms-payment:build": "nx build ms-payment",
+    "dev:ms-product": "nx serve ms-product",
+    "dev:ms-payment": "nx serve ms-payment",
+    "build:ms-product": "nx build ms-product",
+    "build:ms-payment": "nx build ms-payment",
     "test:shared": "nx run shared:test",
-    "test:auth": "nx test auth"
+    "test:auth": "nx test auth",
+    "build": "nx run-many --target=build --all",
+    "dev": "nx run-many --target=serve --all --parallel",
+    "build:rmq": "nx build rmq",
+    "build:auth": "nx build auth",
+    "build:shared": "nx build shared"
   },
   "private": true,
   "dependencies": {
